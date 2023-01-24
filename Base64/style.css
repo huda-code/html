@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:lightgray;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    text-align: center;
+}
+h1{
+    background-color: #d4add4;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding :10px;
+}
+h3{
+    margin-bottom:6px ;
+    font-weight:'Montserrat', sans-serif ;
+    color:#661c66;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.display{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+textarea{
+    border-radius: 10px;
+    border:3px solid #661c66;
+    background-color:#d4add4 ;
+    width: 60%;
+    height:10%;
+    padding:10px;
+    font-size: large;
+}
+.container{
+    border:6px solid #d4add4;
+    border-style: double;
+  margin:15px;
+  width:70%;
+  /* animation: borderdiv 10s infinte; */
+}
+#input{
+    font-family:'Montserrat', sans-serif ;
+    font-weight: bolder;
+}
+#output{
+    font-family:'Montserrat', sans-serif ;
+    font-weight: bolder;
+}
+button{
+    margin:10px;
+    padding:10px 35px;
+    font-size: 20px;
+    text-align: center;
+    cursor:grabbing;
+    background-color:lightgray;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+    box-shadow: 0 9px #999;
+}
+button:active{
+    background-color:  #d4add4;
+    box-shadow:0 5px #666;
+    transform: translateX(4px);
+}
+a{
+    text-decoration:none;
+}
+.footer{
+    margin-top: 50px;
+    padding-top: 2px;
+    bottom:0px;
+    background-color:  #d4add4;
+}
+h4#Huda{
+    font-family:'Poppins', sans-serif;
+    font-size: larger;
+    padding-top: 8px;
+    background-color:  #d4add4;
+}
+/* @keyframes borderdiv{
+    from{border: 6px double #a85cf9}
+    to{border: 6px double #a85cf9};
+}
+h1{
+    font-size: 40px;
+    /* color:#fff; */
+    /* text-align: center;
+    animation: glow 4s ease-in-out infinite alternate;
+} */ 
+
+@media only screen and (max-width:700px){
+    h1{
+        font-weight: lighter;
+        font-size:30px;
+    }
+    h3{
+        font-size: larger;
+    }
+    textarea{
+        width:50%;
+        height:40px;
+    }
+    .footer{
+        bottom:0;
+        right: 0;
+        left:0;
+    }
+}
+
