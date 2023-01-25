@@ -68,11 +68,16 @@ function encoder(){
     abc.innerText = finalBase64String;
     console.log("Your Base 64 output is : ",finalBase64String)
 }
+function decode(){
 
-
-
-
-
-
-
-
+}
+// input 
+// validate base64 (regular expression)
+// base decimal , check == 0000, 00=.
+// convert base 64 into binary 6 bits
+// join everything
+// remove last zeros according to =
+// split into 8 bit
+// convert into decimal
+// convert into ascii
+// join and display the ascii string.
